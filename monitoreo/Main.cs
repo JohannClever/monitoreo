@@ -29,7 +29,7 @@ namespace monitoreo
 
 		static void OnCreated(object sender, FileSystemEventArgs e)		
 		{
-			Console.WriteLine("Se ha creado el archivo '{0}'", e.Name);
+			Console.WriteLine("Se ha creado  '{0}'", e.Name);
 			_continue = false;	
 		}
 	}
