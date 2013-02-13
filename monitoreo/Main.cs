@@ -31,6 +31,8 @@ namespace monitoreo
 		{
 			Console.WriteLine("Se ha creado un fichero '{0}'", e.Name);
             Console.WriteLine("Continue");
+            int i = 2 + 5;
+            Console.WriteLine("result =" + i);
 			_continue = false;	
 		}
 	}
