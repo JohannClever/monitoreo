@@ -30,6 +30,7 @@ namespace monitoreo
 		static void OnCreated(object sender, FileSystemEventArgs e)		
 		{
 			Console.WriteLine("Se ha creado un fichero '{0}'", e.Name);
+            Console.WriteLine("Continue");
 			_continue = false;	
 		}
 	}
